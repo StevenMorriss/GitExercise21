@@ -1,1 +1,32 @@
-# GitExercise21
+Hello, future software developer! In this exercise, we will practice Git via the command line. 🐙
+
+Your tasks are:
+
+1. **Installation**: Download and install Git from [the official website](https://git-scm.com/downloads).
+2. **Configuration**: Set your global username and email with Git.
+3. **Initialization**
+    - Create a new folder named `GitAdventure`.
+    - Inside `GitAdventure`, initialize a new Git repository.
+    - Open this folder with your terminal or Git Bash using Windows.
+4. **Staging and Committing**
+    - Create a text file named `journey.txt` with the content: "Embarking on my journey to master Git."
+    - Use `git status` to see the repository's status.
+    - Stage `journey.txt`.
+    - Commit your changes.
+5. **Deletion**
+    - Before deleting, ensure the file to be deleted is first committed. Create a text file named `temp.txt` with the content: "This file is meant to be deleted." Then, stage and commit.
+    - Delete `temp.txt` using Git's deletion command.
+6. **Renaming**
+    - Rename `journey.txt` to `adventure.txt`.
+    - Update its content to: "My journey evolves into an adventure with Git."
+    - Stage and commit your changes.
+7. **Ignoring Files**
+    - Create a `.gitignore` file to ignore all files ending with `.log`. Stage and commit.
+    - Verify that they are being ignored by creating a dummy .log file and checking that it doesn't appear in the `git status`.
+8. **Diving Deeper**
+    - Change `adventure.txt` to add "Exploring the depths of Git commands and their powers."
+    - Use Git for a concise status overview.
+    - Stage and commit your changes.
+9. **History and Restoration**:
+    - Explore your commit history.
+    - Revert `adventure.txt` to its initial state.
